@@ -1,0 +1,19 @@
+npm init -y
+npm i express| Librerias
+npm i nodemon -D | Para entornos de desarrollo
+npm i dotenv
+
+  "type":"module",
+  "scripts": {
+    "dev":"nodemon index.js",
+    "start": "node index.js"
+  }
+
+archivo ".env" || todas la variables que vamos a colocar ahi van a ser constantes y van a ser en mayuscula
+
+
+como instalar mysql en node
+
+
+npm i @babel/core @babel/cli @babel/node @babel/preset-env -D
+npm i @babel/plugin-transform-runtime -D
